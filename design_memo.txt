@@ -1,0 +1,22 @@
+How did recursive insertion work?
+    One of the main things I learned was how to use recursion, which means a function 
+    calls itself to keep working through a problem. When adding an employee, the program 
+    starts at the team lead and checks each node until it finds the manager’s name. If the 
+    manager is not found right away, the program searches through the left and right branches. 
+    Once it finds the correct manager, it adds the new employee to the selected side.
+    I also used this approach to print the team structure.
+
+
+What challenges did you face when finding the right spot for a new employee?
+    The biggest challenge was making sure employees were added under the correct manager
+    and on the correct side of the tree. I had to think about what should happen if a
+    manager could not be found or if the selected side was already occupied.  Testing the program
+    helped me see how the different parts worked together.
+
+
+When might trees be preferable to other data structures in real-world systems?
+    I think trees are useful when information has a hierarchy, meaning some items belong under others.
+    For example, a company directory can show managers and their employees, while folders on a 
+    computer can organize files inside other folders. Compared with a simple list, a tree makes
+    these relationships easier to see and manage. Overall, this assignment helped me feel more 
+    comfortable working with data structures and breaking problems into smaller steps.
